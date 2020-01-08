@@ -11,8 +11,8 @@
 9.	How to check intermediate result of a variable (e.g. x) when program runs to line i (e.g. line 10)?
 10.	How to plot y=sin(x) for x between 0-2Pi with increment pi/10?
 11.	In above plot, add axis labels in the plot.
-12.	 Change color of line in the plot to red.
+12.	Change color of line in the plot to red.
 13.	Show the dots in the plot with marker ‘*’.
 14.	Decrease the increment from pi/10 to pi/20 and re-plot. 
 15.	Graph cos(x) and sin(x) functions in one figure with different colors and add a legend for the graphs.
-
+16. Split lab1_data.dat into train_x, train_y, test_x, test_y four matrices.
