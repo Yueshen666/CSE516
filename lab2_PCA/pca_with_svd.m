@@ -1,1 +1,15 @@
-% this .m file contains your defined pca function.% The function takes the data matrix X and the number of components k to keep;% The output of the function should be the reduced data matrix Zfunction Z = pca_with_svd(X, k)  % your code here  % step 1. normalization    mu = mean(X);  X = X - mu;    % step 2. get U, S, V using svd   [ U, S, V] = svd(X);    % step 3. get Z by US    Z = U * S(:, 1:k);    % end of code end
+% Perform PCA with SVD (No need to calculate covariance matrix)
+
+function Z = pca_with_svd(X, k)
+
+  % your code here
+  
+  % step 1. normalization
+  
+  % step 2. get U, S, V using svd 
+ 
+  % step 3. get Z by US
+  
+  % end of code 
+  
+end
