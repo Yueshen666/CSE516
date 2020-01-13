@@ -1,1 +1,0 @@
-% this .m file contains your defined pca function.% The function takes the data matrix and n_components which  % indicates the number of components to keep as input;% The output of the function should be the reduced matrixfunction Z = pca(X, n_components)  % your code here  [ m, n ] = size(X)  cov_mat = 1/m * X' * X  Z = size(cov_mat)  % end of code end
