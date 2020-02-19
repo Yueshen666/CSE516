@@ -6,3 +6,4 @@ function indices = reassignPoints(X, centroids)
   for i=1:m
     % you code here
   end
+end
